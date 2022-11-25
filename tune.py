@@ -593,11 +593,11 @@ for key in stn_node:
     siglay = -fvcom.siglay[:,index].data
     Depth = [fvcom.variables['h'][index]*siglay[i] for i in range(len(siglay))]
 
-    regress = interp(df,Depth,'temperature')
+    regress = interp(df,Depth,'salinity')
     regress_dict_tp[key] = regress
 
     
-cc = plotter(stn_node,'temperature')
+cc = plotter(stn_node,'salinity')
 print(cc)
 with open('result_'+sys.argv[1]+'.txt','w') as f:
     print(f"{sys.argv[1]} ,cc and RMSE are {cc}",file=f)

@@ -1,2 +1,2 @@
-Tokyo3 ,cc and RMSE are ({'chiba1buoy': nan, 'chibaharo': 4.299456054661206, 'kawasaki': nan, 'urayasu': nan}, {'chiba1buoy': 0.9154675927202325, 'chibaharo': 0.9280998944995733, 'kawasaki': 0.7439928144680457, 'urayasu': 0.5825280893968016})
+Tokyo3 ,cc and RMSE are ({'chiba1buoy': nan, 'chibaharo': 2.819518309906376, 'kawasaki': nan, 'urayasu': nan}, {'chiba1buoy': -0.306406584856336, 'chibaharo': 0.2152558773292807, 'kawasaki': -0.12851013740090744, 'urayasu': -0.09934377396821667})
 {'chiba1buoy': 137, 'chibaharo': 47, 'kawasaki': 223, 'urayasu': 52}

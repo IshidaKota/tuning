@@ -79,7 +79,7 @@ for index in stn_node:
     #plt.ylabel('siglay', fontsize=24)
 
 
-    plt.pcolormesh(T,S,tempr(T,S,Temp), shading='flat',cmap='rainbow') #カラー等高線図
+    plt.pcolormesh(T,S,tempr(T,S,Temp), shading='goround',cmap='rainbow') #カラー等高線図
     pp=plt.colorbar (orientation="vertical") # カラーバーの表示 
     pp.set_label("Label",  fontsize=24)
 

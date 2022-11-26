@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.11.23)  25 NOV 2022 11:57
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.11.23)  26 NOV 2022 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -129,28 +129,46 @@ File: ../png//Tokyo4/salinity_chiba1buoy_10_Tokyo4.png Graphic file (type bmp)
 File: ../png//Tokyo4/salinity_chiba1buoy_18_Tokyo4.png Graphic file (type bmp)
 <../png//Tokyo4/salinity_chiba1buoy_18_Tokyo4.png>
  [3]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 53.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 53.
+File: ../png//Tokyo4/salinity_chiba1buoy_2_Tokyo4.png Graphic file (type bmp)
+<../png//Tokyo4/salinity_chiba1buoy_2_Tokyo4.png>
 
-LaTeX Warning: File `Tokyo6/salinity_chiba1buoy_2_Tokyo6.png' not found on inpu
-t line 54.
+Overfull \hbox (157.81392pt too wide) in paragraph at lines 56--57
+ [][] 
+ []
+
+File: ../png//Tokyo4/salinity_chiba1buoy_10_Tokyo4.png Graphic file (type bmp)
+<../png//Tokyo4/salinity_chiba1buoy_10_Tokyo4.png>
+
+Overfull \hbox (157.81392pt too wide) in paragraph at lines 61--62
+ [][] 
+ []
+
+File: ../png//Tokyo4/salinity_chiba1buoy_18_Tokyo4.png Graphic file (type bmp)
+<../png//Tokyo4/salinity_chiba1buoy_18_Tokyo4.png>
+
+Overfull \hbox (157.81392pt too wide) in paragraph at lines 66--67
+ [][] 
+ []
 
 
-! LaTeX Error: Cannot determine size of graphic in Tokyo6/salinity_chiba1buoy_2
-_Tokyo6.xbb (no BoundingBox).
+Overfull \hbox (158.11325pt too wide) in paragraph at lines 53--70
+[][][][] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 ...]{Tokyo6/salinity_chiba1buoy_2_Tokyo6.png}
-                                                  
-? x
- 
+[4] (./picsal.aux) ) 
 Here is how much of TeX's memory you used:
- 1058 strings out of 475430
- 21007 string characters out of 5784617
+ 1009 strings out of 475430
+ 18610 string characters out of 5784617
  367693 words of memory out of 5000000
- 22807 multiletter control sequences out of 15000+600000
- 474960 words of font info for 52 fonts, out of 8000000 for 9000
+ 22774 multiletter control sequences out of 15000+600000
+ 477946 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 55i,5n,62p,207b,307s stack positions out of 10000i,1000n,20000p,200000b,200000s
-Output written on picsal.dvi (3 pages, 1736 bytes).
+ 55i,12n,62p,207b,369s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on picsal.dvi (4 pages, 2612 bytes).

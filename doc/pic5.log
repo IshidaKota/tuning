@@ -2,8 +2,8 @@ This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022)
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**pic4.tex
-(./pic4.tex
+**pic5.tex
+(./pic5.tex
 pLaTeX2e <2021-11-15> (based on LaTeX2e <2022-11-01>)
 L3 programming layer <2022-11-02>
 (/home/usr0/r70240c/local/texlive/texmf-dist/tex/platex/base/jarticle.cls
@@ -88,8 +88,8 @@ File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
 \g__pdf_backend_annotation_int=\count198
 \g__pdf_backend_link_int=\count199
 \g__pdf_backend_link_sf_int=\count266
-) (./pic4.aux)
-\openout1 = `pic4.aux'.
+) (./pic5.aux)
+\openout1 = `pic5.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
 LaTeX Font Info:    ... okay on input line 5.
@@ -148,48 +148,48 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 6.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 (Font)              Font shape `JY1/gt/m/n' tried instead on input line 6.
-File: ../png//contour/Tokyo4_chiba1buoy.png Graphic file (type bmp)
-<../png//contour/Tokyo4_chiba1buoy.png>
+File: ../png//contour/Tokyo5_chiba1buoy.png Graphic file (type bmp)
+<../png//contour/Tokyo5_chiba1buoy.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 15.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 15.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 15.
-File: ../png//Tokyo4/salinity_chiba1buoy_2_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_chiba1buoy_2_Tokyo4.png>
-File: ../png//Tokyo4/salinity_chiba1buoy_10_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_chiba1buoy_10_Tokyo4.png>
-File: ../png//Tokyo4/salinity_chiba1buoy_18_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_chiba1buoy_18_Tokyo4.png>
-File: ../png//Tokyo4/salinity_chibaharo_2_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_chibaharo_2_Tokyo4.png>
-File: ../png//Tokyo4/salinity_chibaharo_10_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_chibaharo_10_Tokyo4.png>
-File: ../png//Tokyo4/salinity_chibaharo_18_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_chibaharo_18_Tokyo4.png>
-File: ../png//Tokyo4/salinity_urayasu_2_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_urayasu_2_Tokyo4.png>
-File: ../png//Tokyo4/salinity_urayasu_10_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_urayasu_10_Tokyo4.png>
-File: ../png//Tokyo4/salinity_urayasu_18_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_urayasu_18_Tokyo4.png>
-File: ../png//Tokyo4/salinity_kawasaki_2_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_kawasaki_2_Tokyo4.png>
-File: ../png//Tokyo4/salinity_kawasaki_10_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_kawasaki_10_Tokyo4.png>
-File: ../png//Tokyo4/salinity_kawasaki_18_Tokyo4.png Graphic file (type bmp)
-<../png//Tokyo4/salinity_kawasaki_18_Tokyo4.png>
+(Font)              <6> on input line 14.
+File: ../png//Tokyo5/salinity_chiba1buoy_2_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_chiba1buoy_2_Tokyo5.png>
+File: ../png//Tokyo5/salinity_chiba1buoy_10_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_chiba1buoy_10_Tokyo5.png>
+File: ../png//Tokyo5/salinity_chiba1buoy_18_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_chiba1buoy_18_Tokyo5.png>
+File: ../png//Tokyo5/salinity_chibaharo_2_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_chibaharo_2_Tokyo5.png>
+File: ../png//Tokyo5/salinity_chibaharo_10_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_chibaharo_10_Tokyo5.png>
+File: ../png//Tokyo5/salinity_chibaharo_18_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_chibaharo_18_Tokyo5.png>
+File: ../png//Tokyo5/salinity_urayasu_2_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_urayasu_2_Tokyo5.png>
+File: ../png//Tokyo5/salinity_urayasu_10_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_urayasu_10_Tokyo5.png>
+File: ../png//Tokyo5/salinity_urayasu_18_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_urayasu_18_Tokyo5.png>
+File: ../png//Tokyo5/salinity_kawasaki_2_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_kawasaki_2_Tokyo5.png>
+File: ../png//Tokyo5/salinity_kawasaki_10_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_kawasaki_10_Tokyo5.png>
+File: ../png//Tokyo5/salinity_kawasaki_18_Tokyo5.png Graphic file (type bmp)
+<../png//Tokyo5/salinity_kawasaki_18_Tokyo5.png>
 [1
 
-] [2] (./pic4.aux) ) 
+] [2] (./pic5.aux) ) 
 Here is how much of TeX's memory you used:
  1616 strings out of 475430
  29654 string characters out of 5784617
- 387947 words of memory out of 5000000
+ 386947 words of memory out of 5000000
  23364 multiletter control sequences out of 15000+600000
  477946 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 55i,11n,62p,219b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,11n,62p,219b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on pic4.dvi (2 pages, 2996 bytes).
+Output written on pic5.dvi (2 pages, 2844 bytes).

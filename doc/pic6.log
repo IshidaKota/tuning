@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.11.23)  28 NOV 2022 23:45
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.11.23)  29 NOV 2022 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -151,11 +151,11 @@ LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <17.28> not available
 File: ../png//contour/Tokyo6_chiba1buoy.png Graphic file (type bmp)
 <../png//contour/Tokyo6_chiba1buoy.png>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 14.
+(Font)              <12> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 14.
+(Font)              <8> on input line 15.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 14.
+(Font)              <6> on input line 15.
 File: ../png//Tokyo6/salinity_chiba1buoy_2_Tokyo6.png Graphic file (type bmp)
 <../png//Tokyo6/salinity_chiba1buoy_2_Tokyo6.png>
 File: ../png//Tokyo6/salinity_chiba1buoy_10_Tokyo6.png Graphic file (type bmp)
@@ -186,10 +186,10 @@ File: ../png//Tokyo6/salinity_kawasaki_18_Tokyo6.png Graphic file (type bmp)
 Here is how much of TeX's memory you used:
  1616 strings out of 475430
  29654 string characters out of 5784617
- 386947 words of memory out of 5000000
+ 387947 words of memory out of 5000000
  23364 multiletter control sequences out of 15000+600000
  477946 words of font info for 62 fonts, out of 8000000 for 9000
  929 hyphenation exceptions out of 8191
- 55i,11n,62p,219b,439s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 55i,11n,62p,219b,447s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on pic6.dvi (2 pages, 2844 bytes).
+Output written on pic6.dvi (2 pages, 3268 bytes).

@@ -1,0 +1,7 @@
+ &NML_RIVER
+  RIVER_NAME          = 'arakawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 80,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /

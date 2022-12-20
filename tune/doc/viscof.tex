@@ -1,0 +1,47 @@
+\documentclass[fontsize=12pt,paper=a4]{jlreq}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\graphicspath{{../png/}}
+\begin{document}
+
+\section{contents}
+\begin{center}
+    \begin{tabular}{lrr} \toprule
+   label & HPRNU & Hrizontal\_mixing\_coefficient \\ \midrule
+   Tokyo211 & 0.01 & 0.01 \\
+   Tokyo212 & 0.1 & 0.1 \\
+   Tokyo213 & 1.0 & 1.0 \\
+   Tokyo214*not shown & 5.0 & 5.0 \\
+   Tokyo215 & 10.0 & 10.0 \\ \bottomrule
+  \end{tabular}
+\end{center}
+*kh:鉛直渦動拡散係数(多分)  *viscofh:水平渦動拡散係数(多分)
+  
+全て千葉１号灯標の値
+\begin{figure}[hbtp]
+   \centering
+   \includegraphics[keepaspectratio,width=140mm]{viscof/khupperTokyo211toTokyo215.png}
+   \caption{表層、上が鉛直渦動拡散係数、下が水平渦動拡散係数}
+\end{figure}
+\begin{figure}[hbtp]
+    \centering
+    \includegraphics[keepaspectratio,width=140mm]{viscof/khbottomTokyo211toTokyo215.png}
+    \caption{底層、渦動拡散係数}
+ \end{figure}
+
+ \begin{figure}[hbtp]
+    \centering
+    \includegraphics[keepaspectratio,width=140mm]{viscof/kmupperTokyo211toTokyo215.png}
+    \caption{表層、渦動粘性係数}
+ \end{figure}
+
+ \begin{figure}[hbtp]
+    \centering
+    \includegraphics[keepaspectratio,width=140mm]{viscof/kmbottomTokyo211toTokyo215.png}
+    \caption{底層、渦動粘性係数}
+ \end{figure}
+ 
+
+
+
+\end{document}

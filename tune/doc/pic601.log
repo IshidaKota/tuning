@@ -1,0 +1,417 @@
+This is e-pTeX, Version 3.141592653-p4.0.0-220214-2.6 (utf8.euc) (TeX Live 2022) (preloaded format=platex 2022.11.25)  21 DEC 2022 00:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**pic601
+(./pic601.tex
+pLaTeX2e <2021-11-15> (based on LaTeX2e <2022-11-01>)
+L3 programming layer <2022-11-02>
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/platex/jsclasses/jsarti
+cle.cls
+Document Class: jsarticle 2022/09/13 jsclasses (okumura, texjporg)
+\jsc@mpt=\dimen156
+\jsc@mmm=\dimen157
+\jsc@smallskipamount=\skip47
+LaTeX Info: Redefining \textmc on input line 500.
+LaTeX Info: Redefining \textgt on input line 502.
+\symmincho=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `mincho' in version `bold'
+(Font)                  JY1/mc/m/n --> JY1/gt/m/n on input line 564.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 758.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 9.60999pt on input line 758.
+\fullwidth=\dimen158
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 911.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 7.68799pt on input line 911.
+\c@part=\count184
+\c@section=\count185
+\c@subsection=\count186
+\c@subsubsection=\count187
+\c@paragraph=\count188
+\c@subparagraph=\count189
+\@abstractbox=\box68
+\c@figure=\count190
+\c@table=\count191
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\jsc@tocl@width=\dimen159
+\@lnumwidth=\dimen160
+\bibindent=\dimen161
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/platex/jsclasses/jslogo
+.sty
+Package: jslogo 2019/07/25 okumura, texjporg
+LaTeX Info: Redefining \TeX on input line 82.
+LaTeX Info: Redefining \LaTeX on input line 135.
+LaTeX Info: Redefining \LaTeXe on input line 188.
+)
+\heisei=\count192
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/graphics/graphicx
+.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.s
+ty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/graphics/graphics
+.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/grap
+hics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: dvipdfmx.def on input line 107.
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/graphics-def/dvip
+dfmx.def
+File: dvipdfmx.def 2022/09/22 v5.0m Graphics/color driver for dvipdfmx
+))
+\Gin@req@height=\dimen162
+\Gin@req@width=\dimen163
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry
+.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.st
+y
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count193
+\Gm@cntv=\count194
+\c@Gm@tempcnt=\count195
+\Gm@bindingoffset=\dimen164
+\Gm@wd@mp=\dimen165
+\Gm@odd@mp=\dimen166
+\Gm@even@mp=\dimen167
+\Gm@layoutwidth=\dimen168
+\Gm@layoutheight=\dimen169
+\Gm@layouthoffset=\dimen170
+\Gm@layoutvoffset=\dimen171
+\Gm@dimlist=\toks18
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/caption/caption.s
+ty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/caption/caption3.
+sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen172
+\captionmargin=\dimen173
+\caption@leftmargin=\dimen174
+\caption@rightmargin=\dimen175
+\caption@width=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
+Package caption Info: Unknown document class (or package),
+(caption)             standard defaults will be used.
+Package caption Info: \@makecaption = \long macro:#1#2->{\small \advance \lefts
+kip .0628\linewidth \advance \rightskip .0628\linewidth \vskip \abovecaptionski
+p \sbox \@tempboxa {#1\hskip 1zw\relax #2}\ifdim \wd \@tempboxa <\hsize \center
+ing \fi #1{\hskip 1zw\relax }#2\par \vskip \belowcaptionskip } on input line 11
+76.
+)
+
+Package caption Warning: Unknown document class (or package),
+(caption)                standard defaults will be used.
+See the caption package documentation for explanation.
+
+\c@caption@flags=\count196
+\c@continuedfloat=\count197
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/booktabs/booktabs
+.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen180
+\lightrulewidth=\dimen181
+\cmidrulewidth=\dimen182
+\belowrulesep=\dimen183
+\belowbottomsep=\dimen184
+\aboverulesep=\dimen185
+\abovetopsep=\dimen186
+\cmidrulesep=\dimen187
+\cmidrulekern=\dimen188
+\defaultaddspace=\dimen189
+\@cmidla=\count198
+\@cmidlb=\count199
+\@aboverulesep=\dimen190
+\@belowrulesep=\dimen191
+\@thisruleclass=\count266
+\@lastruleclass=\count267
+\@thisrulewidth=\dimen192
+)
+(/work/00/gy29/y29007/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backe
+nd-dvips.def
+File: l3backend-dvips.def 2022-10-26 L3 backend support: dvips
+\l__pdf_internal_box=\box69
+\g__pdf_backend_object_int=\count268
+\l__pdf_backend_content_box=\box70
+\l__pdf_backend_model_box=\box71
+\g__pdf_backend_annotation_int=\count269
+\g__pdf_backend_link_int=\count270
+\g__pdf_backend_link_sf_int=\count271
+)
+No file pic601.aux.
+\openout1 = `pic601.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
+* \paperwidth=717.0044pt
+* \paperheight=1014.03809pt
+* \textwidth=569.05515pt
+* \textheight=816.59412pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-88.99768pt
+* \headheight=20.0pt
+* \headsep=10.95406pt
+* \topskip=12.76073pt
+* \footskip=23.71478pt
+* \marginparwidth=9.24687pt
+* \marginparsep=18.49374pt
+* \columnsep=18.49374pt
+* \skip\footins=16.0pt plus 5.0pt minus 2.0pt
+* \hoffset=12.0588pt
+* \voffset=12.0588pt
+* \mag=1200
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `JT1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 14.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 14.
+LaTeX Font Info:    Font shape `JT1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 14.
+LaTeX Font Info:    Font shape `JY1/gt/m/n' will be
+(Font)              scaled to size 13.83836pt on input line 14.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 17.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 6.72699pt on input line 17.
+LaTeX Font Info:    Font shape `JY1/mc/m/n' will be
+(Font)              scaled to size 4.805pt on input line 17.
+File: ../png//map/st_location_inner_highrs.png Graphic file (type bmp)
+<../png//map/st_location_inner_highrs.png>
+File: ../png//contour/salinitydynTokyo601_chiba1buoy.png Graphic file (type bmp
+)
+<../png//contour/salinitydynTokyo601_chiba1buoy.png>
+File: ../png//contour/salinitydynTokyo601_chibaharo.png Graphic file (type bmp)
+
+<../png//contour/salinitydynTokyo601_chibaharo.png>
+File: ../png//contour/salinitydynTokyo601_kawasaki.png Graphic file (type bmp)
+<../png//contour/salinitydynTokyo601_kawasaki.png>
+File: ../png//contour/salinitydynTokyo601_urayasu.png Graphic file (type bmp)
+<../png//contour/salinitydynTokyo601_urayasu.png>
+
+Overfull \hbox (15.33334pt too wide) in paragraph at lines 39--61
+[][][][] 
+ []
+
+[1
+
+]
+File: ../png//Tokyo601/salinity_chiba1buoy.png Graphic file (type bmp)
+<../png//Tokyo601/salinity_chiba1buoy.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 69--70
+ [][] 
+ []
+
+File: ../png//Tokyo601/salinity_chibaharo.png Graphic file (type bmp)
+<../png//Tokyo601/salinity_chibaharo.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 74--75
+ [][] 
+ []
+
+File: ../png//Tokyo601/salinity_urayasu.png Graphic file (type bmp)
+<../png//Tokyo601/salinity_urayasu.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 79--80
+ [][] 
+ []
+
+File: ../png//Tokyo601/salinity_kawasaki.png Graphic file (type bmp)
+<../png//Tokyo601/salinity_kawasaki.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 84--85
+ [][] 
+ []
+
+[2
+
+]
+File: ../png//contour/tempdynTokyo601_chiba1buoy.png Graphic file (type bmp)
+<../png//contour/tempdynTokyo601_chiba1buoy.png>
+File: ../png//Tokyo601/temperature_chiba1buoy.png Graphic file (type bmp)
+<../png//Tokyo601/temperature_chiba1buoy.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 102--103
+ [][] 
+ []
+
+File: ../png//Tokyo601/temperature_chibaharo.png Graphic file (type bmp)
+<../png//Tokyo601/temperature_chibaharo.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 107--108
+ [][] 
+ []
+
+File: ../png//Tokyo601/temperature_urayasu.png Graphic file (type bmp)
+<../png//Tokyo601/temperature_urayasu.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 112--113
+ [][] 
+ []
+
+File: ../png//Tokyo601/temperature_kawasaki.png Graphic file (type bmp)
+<../png//Tokyo601/temperature_kawasaki.png>
+
+Overfull \hbox (227.62202pt too wide) in paragraph at lines 117--118
+ [][] 
+ []
+
+[3
+
+]
+File: ../png//vertical/salinityTokyo601_30profile.png Graphic file (type bmp)
+<../png//vertical/salinityTokyo601_30profile.png>
+File: ../png//vertical/TemperatureTokyo601_30profile.png Graphic file (type bmp
+)
+<../png//vertical/TemperatureTokyo601_30profile.png>
+File: ../png//vertical/salinityTokyo601_90profile.png Graphic file (type bmp)
+<../png//vertical/salinityTokyo601_90profile.png>
+File: ../png//vertical/TemperatureTokyo601_90profile.png Graphic file (type bmp
+)
+<../png//vertical/TemperatureTokyo601_90profile.png>
+File: ../png//vertical/salinityTokyo601_150profile.png Graphic file (type bmp)
+<../png//vertical/salinityTokyo601_150profile.png>
+File: ../png//vertical/TemperatureTokyo601_150profile.png Graphic file (type bm
+p)
+<../png//vertical/TemperatureTokyo601_150profile.png>
+File: ../png//vertical/salinityTokyo601_210profile.png Graphic file (type bmp)
+<../png//vertical/salinityTokyo601_210profile.png>
+File: ../png//vertical/TemperatureTokyo601_210profile.png Graphic file (type bm
+p)
+<../png//vertical/TemperatureTokyo601_210profile.png>
+File: ../png//vertical/salinityTokyo601_240profile.png Graphic file (type bmp)
+<../png//vertical/salinityTokyo601_240profile.png>
+File: ../png//vertical/TemperatureTokyo601_240profile.png Graphic file (type bm
+p)
+<../png//vertical/TemperatureTokyo601_240profile.png>
+File: ../png//vertical/salinityTokyo601_270profile.png Graphic file (type bmp)
+<../png//vertical/salinityTokyo601_270profile.png>
+File: ../png//vertical/TemperatureTokyo601_270profile.png Graphic file (type bm
+p)
+<../png//vertical/TemperatureTokyo601_270profile.png>
+
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 126--202
+[][][][] 
+ []
+
+[4]
+File: ../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_30profile.png
+ Graphic file (type bmp)
+<../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_30profile.png>
+File: ../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_90profile.png
+ Graphic file (type bmp)
+<../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_90profile.png>
+File: ../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_150profile.pn
+g Graphic file (type bmp)
+<../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_150profile.png>
+File: ../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_210profile.pn
+g Graphic file (type bmp)
+<../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_210profile.png>
+File: ../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_240profile.pn
+g Graphic file (type bmp)
+<../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_240profile.png>
+File: ../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_270profile.pn
+g Graphic file (type bmp)
+<../png//vertical/vertical_turbulent_eddy_visicosityTokyo601_270profile.png>
+File: ../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo
+601_30profile.png Graphic file (type bmp)
+<../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo601_3
+0profile.png>
+File: ../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo
+601_90profile.png Graphic file (type bmp)
+<../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo601_9
+0profile.png>
+File: ../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo
+601_150profile.png Graphic file (type bmp)
+<../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo601_1
+50profile.png>
+File: ../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo
+601_210profile.png Graphic file (type bmp)
+<../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo601_2
+10profile.png>
+File: ../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo
+601_240profile.png Graphic file (type bmp)
+<../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo601_2
+40profile.png>
+File: ../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo
+601_270profile.png Graphic file (type bmp)
+<../png//vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo601_2
+70profile.png>
+ [5
+
+
+] [6] (./pic601.aux) ) 
+Here is how much of TeX's memory you used:
+ 3353 strings out of 475430
+ 70498 string characters out of 5781831
+ 418781 words of memory out of 5000000
+ 25067 multiletter control sequences out of 15000+600000
+ 475342 words of font info for 58 fonts, out of 8000000 for 9000
+ 934 hyphenation exceptions out of 8191
+ 55i,13n,63p,249b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on pic601.dvi (6 pages, 8480 bytes).

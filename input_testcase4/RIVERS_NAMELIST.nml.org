@@ -1,0 +1,78 @@
+ &NML_RIVER
+  RIVER_NAME          = 'Tamagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 183,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'arakawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 80,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'sumidagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 45,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'edogawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 21,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'nakagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 91,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Tsurumigawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 199,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Mama',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 7,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Ebi',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 1,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+&NML_RIVER
+  RIVER_NAME          = 'Yoro',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 75,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Obitsu',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 247,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'koito',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 316,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Murata',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 43,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Hanami',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 15,
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /

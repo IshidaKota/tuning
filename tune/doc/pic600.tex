@@ -1,0 +1,283 @@
+\documentclass[12pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[margin=6truemm]{geometry}
+\usepackage{caption}
+\usepackage{booktabs}
+\captionsetup[figure]{skip=0pt}
+\makeatletter
+\setlength{\@fptop}{3pt}
+\setlength{\@fpsep}{3pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\graphicspath{{../png/}}
+\begin{document}
+\section{contents}
+\begin{center}
+  \begin{tabular}{lr} \toprule
+    mesh & inner \\ \midrule
+    sigma layer &uniform \\
+    river& heaviside 等倍 \\
+    wind &1倍  \\
+    tide & yokosuka\\
+    HORIZONTAL\_MIXING\_COEFFICIENT   &  0.1000000   \\
+    HORIZONTAL\_PRANDTL\_NUMBER       &  0.10000000\\
+    VERTICAL\_MIXING\_COEFFICIENT     &  1.0000E-04   \\ 
+    VERTICAL\_PRANDTL\_NUMBER &  0.150000  \\  \bottomrule
+  \end{tabular}
+\end{center}
+
+
+\section{観測点}
+\begin{figure}[hbtp]
+  \includegraphics[keepaspectratio,width=50mm]{map/st_location_inner_highrs.png}
+  \caption{地図}
+\end{figure}
+
+\section{塩分コンターマップ}
+\begin{figure}
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo6_chiba1buoy.png}
+      \caption{千葉港口第一号灯標}
+    \end{minipage} 
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo6_chibaharo.png}
+      \caption{千葉波浪観測塔}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo6_kawasaki.png}
+      \caption{川崎}
+    \end{minipage} 
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo6_urayasu.png}
+      \caption{浦安}
+    \end{minipage} 
+  \end{tabular}
+\end{figure}
+
+
+\clearpage
+\begin{figure}[hbtp]
+    \begin{tabular}{c}
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=180mm]{Tokyo6/salinity_chiba1buoy.png}
+        \caption{千葉港口第一号灯標}
+      \end{minipage} \\
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=180mm]{Tokyo6/salinity_chibaharo.png}
+        \caption{検見川沖(千葉波浪観測塔)}
+      \end{minipage} \\
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=180mm]{Tokyo6/salinity_urayasu.png}
+        \caption{浦安}
+      \end{minipage} \\
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=180mm]{Tokyo6/salinity_kawasaki.png}
+        \caption{川崎}
+      \end{minipage} \\
+    \end{tabular}
+  \end{figure}
+
+
+\clearpage
+\section{水温変化のコンター}
+\begin{figure}[hbtp]
+    \includegraphics[keepaspectratio,width=100mm]{contour/tempdynTokyo6_chiba1buoy.png}
+    \caption{千葉港口第一号灯標の水温変化}
+\end{figure}
+
+\begin{figure}[hbtp]
+  \begin{tabular}{c}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=180mm]{Tokyo6/temperature_chiba1buoy.png}
+      \caption{千葉港口第一号灯標}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=180mm]{Tokyo6/temperature_chibaharo.png}
+      \caption{検見川沖(千葉波浪観測塔)}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=180mm]{Tokyo6/temperature_urayasu.png}
+      \caption{浦安}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=180mm]{Tokyo6/temperature_kawasaki.png}
+      \caption{川崎}
+    \end{minipage} \\
+  \end{tabular}
+\end{figure}
+
+\section{鉛直プロファイル}
+\clearpage
+\begin{figure}[hbtp]
+  \begin{tabular}{cc}
+    %30
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo6_30profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,2/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo6_30profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,2/1}
+    \end{minipage} \\
+    %90
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo6_90profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,4/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo6_90profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,4/1}
+    \end{minipage} \\
+    %150
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo6_150profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,6/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo6_150profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,6/1}
+    %210
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo6_210profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,8/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo6_210profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,8/1}
+    \end{minipage} \\
+      %240
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo6_240profile.png}
+        \caption{salinity,9/1}
+      \end{minipage} &
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo6_240profile.png}
+        \caption{temperature,9/1}
+      \end{minipage} \\
+    %270
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo6_270profile.png}
+        \caption{salinity,10/1}
+      \end{minipage} &
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo6_270profile.png}
+        \caption{temperature,10/1}
+      \end{minipage} 
+  \end{tabular}
+\end{figure}
+\clearpage
+\section{kh}
+\begin{figure}
+  \begin{tabular}{ccc}
+  \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/vertical_turbulent_eddy_visicosityTokyo6_30profile.png}
+      \caption{kh,2/1}
+    \end{minipage}
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/vertical_turbulent_eddy_visicosityTokyo6_90profile.png}
+      \caption{kh,4/1}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/vertical_turbulent_eddy_visicosityTokyo6_150profile.png}
+      \caption{kh,6/1} 
+    \end{minipage}
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/vertical_turbulent_eddy_visicosityTokyo6_210profile.png}
+      \caption{kh,8/1}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/vertical_turbulent_eddy_visicosityTokyo6_240profile.png}
+      \caption{kh,9/1}
+    \end{minipage}
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/vertical_turbulent_eddy_visicosityTokyo6_270profile.png}
+      \caption{kh,10/1}
+    \end{minipage}
+
+  \end{tabular}
+\end{figure}
+
+\section{kh}
+\begin{figure}
+  \begin{tabular}{ccc}
+  \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo6_30profile.png}
+      \caption{viscofh,2/1}
+    \end{minipage}
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo6_90profile.png}
+      \caption{viscofh,4/1}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo6_150profile.png}
+      \caption{viscofh,6/1} 
+    \end{minipage}
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo6_210profile.png}
+      \caption{viscofh,8/1}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo6_240profile.png}
+      \caption{viscofh,9/1}
+    \end{minipage}
+    \begin{minipage}[t]{0.45\hsize}
+      \includegraphics[keepaspectratio,width=90mm]{vertical/horizontal_turbulent_eddy_visicosity_or_diffusivityTokyo6_270profile.png}
+      \caption{viscofh,10/1}
+    \end{minipage}
+  \end{tabular}
+\end{figure}
+
+%\clearpage
+%\section{三浦半島沖合の時系列データ}
+%\begin{figure}[hbtp]
+%  \begin{tabular}{cc}
+%    \begin{minipage}[t]{0.5\hsize}
+%      \centering
+%      \includegraphics[keepaspectratio,width=90mm]{Tokyo6/salinity_outer.png}
+%      \caption{salinity}
+%    \end{minipage} 
+%    \begin{minipage}[t]{0.5\hsize}
+%      \centering
+%      \includegraphics[keepaspectratio,width=90mm]{Tokyo6/temperature_outer.png}
+%      \caption{temperature}
+%    \end{minipage} 
+%  \end{tabular}
+%\end{figure}
+
+
+
+\end{document}

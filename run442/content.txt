@@ -1,0 +1,8 @@
+2022/12/14
+-input_testcase
+-Tokyo_run.nml
+-mpi.sh
+-Tokyo_0001.nc
+最小水深20mのケースで三ヶ月実行。浅海域での水温低下がどのように変わるか分析した。
+*interactive jobによる実行
+

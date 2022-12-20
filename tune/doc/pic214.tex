@@ -1,0 +1,223 @@
+\documentclass[12pt,a4paper]{jsarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[margin=6truemm]{geometry}
+\usepackage{caption}
+\usepackage{booktabs}
+\captionsetup[figure]{skip=0pt}
+\makeatletter
+\setlength{\@fptop}{3pt}
+\setlength{\@fpsep}{3pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\graphicspath{{../png/}}
+\begin{document}
+\section{contents}
+\begin{center}
+  \begin{tabular}{lr} \toprule
+    variables  & value \\ \midrule
+    Horizontal\_mixing\_coefficient & 5.0 \\
+    HPRNU & 5.0 \\
+    VPRNU & 0.15 \\
+    Vertical\_mixing\_coefficient & 1e-4 \\ \bottomrule
+  \end{tabular}
+\end{center}
+
+
+\section{観測点}
+\begin{figure}[hbtp]
+  \includegraphics[keepaspectratio,width=50mm]{map/st_location_outer.png}
+  \caption{地図}
+\end{figure}
+
+\section{salinity}
+\begin{figure}[hbtp]
+    \includegraphics[keepaspectratio,width=100mm]{contour/salinitydynTokyo214_chiba1buoy.png}
+    \caption{千葉港口第一号灯標}
+\end{figure}
+
+%\section{河川流量1倍時のsigma layerごとでの水温変化,中小河川入力済み,chiba1buoy}
+\begin{figure}[hbtp]
+    \begin{tabular}{c}
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=170mm]{Tokyo214/salinity_chiba1buoy.png}
+        \caption{千葉港口第一号灯標}
+      \end{minipage} \\
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=170mm]{Tokyo214/salinity_chibaharo.png}
+        \caption{検見川沖(千葉波浪観測塔)}
+      \end{minipage} \\
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=170mm]{Tokyo214/salinity_urayasu.png}
+        \caption{浦安}
+      \end{minipage} \\
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=170mm]{Tokyo214/salinity_kawasaki.png}
+        \caption{川崎}
+      \end{minipage} \\
+    \end{tabular}
+  \end{figure}
+  
+\clearpage
+\section{水温変化のコンター}
+\begin{figure}[hbtp]
+    \includegraphics[keepaspectratio,width=100mm]{contour/tempdynTokyo214_chiba1buoy.png}
+    \caption{千葉港口第一号灯標の水温変化}
+\end{figure}
+次ページから各nodeのグラフ
+
+
+%\section{河川流量1倍時のsigma layerごとでの水温変化,中小河川入力済み,chiba1buoy}
+\begin{figure}[hbtp]
+  \begin{tabular}{c}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=170mm]{Tokyo214/temperature_chiba1buoy.png}
+      \caption{千葉港口第一号灯標}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=170mm]{Tokyo214/temperature_chibaharo.png}
+      \caption{検見川沖(千葉波浪観測塔)}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=170mm]{Tokyo214/temperature_urayasu.png}
+      \caption{浦安}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio, width=170mm]{Tokyo214/temperature_kawasaki.png}
+      \caption{川崎}
+    \end{minipage} \\
+  \end{tabular}
+\end{figure}
+
+\section{鉛直プロファイル}
+\clearpage
+\begin{figure}[hbtp]
+  \begin{tabular}{cc}
+    %30
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo214_30profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,2/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo214_30profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,2/1}
+    \end{minipage} \\
+    %90
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo214_90profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,4/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo214_90profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,4/1}
+    \end{minipage} \\
+    %150
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo214_150profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,6/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo214_150profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,6/1}
+    %210
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo214_210profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,8/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo214_210profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,8/1}
+    \end{minipage} \\
+      %240
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo214_240profile.png}
+        \caption{salinity,9/1}
+      \end{minipage} &
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo214_240profile.png}
+        \caption{temperature,9/1}
+      \end{minipage} \\
+    %270
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo214_270profile.png}
+        \caption{salinity,10/1}
+      \end{minipage} &
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo214_270profile.png}
+        \caption{temperature/10/1}
+      \end{minipage} 
+  \end{tabular}
+\end{figure}
+
+\clearpage
+\section{三浦半島沖合の時系列データ}
+\begin{figure}[hbtp]
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{Tokyo214/salinity_outer.png}
+      \caption{salinity}
+    \end{minipage} 
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{Tokyo214/temperature_outer.png}
+      \caption{temperature}
+    \end{minipage} 
+  \end{tabular}
+\end{figure}
+
+\section{他の地点のコンターマップ(塩分)}
+\begin{figure}[hbtp]
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo214_chiba1buoy.png}
+      \caption{千葉港口第一号灯標}
+    \end{minipage} 
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo214_chibaharo.png}
+      \caption{千葉波浪観測塔}
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo214_kawasaki.png}
+      \caption{川崎}
+    \end{minipage} 
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{contour/salinitydynTokyo214_urayasu.png}
+      \caption{浦安}
+    \end{minipage} 
+  \end{tabular}
+\end{figure}
+
+\end{document}

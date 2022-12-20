@@ -1,0 +1,84 @@
+ &NML_RIVER
+  RIVER_NAME          = 'Tamagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 233,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'arakawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 56,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'sumidagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 128,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'edogawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 98,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Tsurumigawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 277,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Ebigawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 4,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Mamagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 5,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Yorogawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 62,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Obitsugawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 314,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'koitogawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 435,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Muratagawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 42,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Hanamigawa',
+  RIVER_FILE          = 'TokyoBay_river.nc',
+  RIVER_GRID_LOCATION = 20,
+ 
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /

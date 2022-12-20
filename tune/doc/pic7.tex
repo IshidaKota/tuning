@@ -1,0 +1,279 @@
+\documentclass[12pt,a4paper]{jarticle}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage[margin=6truemm]{geometry}
+\usepackage{caption}
+\captionsetup[figure]{skip=0pt}
+\makeatletter
+\setlength{\@fptop}{3pt}
+\setlength{\@fpsep}{3pt}
+\setlength{\@fpbot}{0pt plus 1fil}
+\makeatother
+\graphicspath{{../png/}}
+\begin{document}
+\section{contents}
+
+
+
+\section{観測点}
+\begin{figure}[hbtp]
+  \includegraphics[keepaspectratio,width=100mm]{map/st_location.png}
+  \caption{chiba1buoy}
+  \label{地図}
+\end{figure}
+
+\section{salinity}
+\begin{figure}[hbtp]
+    \includegraphics[keepaspectratio,width=180mm]{contour/salinityTokyo7_chiba1buoy.png}
+    \caption{chiba1buoy}
+\end{figure}
+
+%\section{河川流量1倍時のsigma layerごとでの水温変化,中小河川入力済み,chiba1buoy}
+\begin{figure}[hbtp]
+    \begin{tabular}{ccc}
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_chiba1buoy_2_Tokyo7.png}
+        \caption{siglay=2,chiba1buoy}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_chiba1buoy_15_Tokyo7.png}
+        \caption{siglalay=15,chiba1buoy}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_chiba1buoy_28_Tokyo7.png}
+        \caption{siglay=28,chiba1buoy}
+      \end{minipage} \\
+      %chibaharo
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_chibaharo_2_Tokyo7.png}
+        \caption{siglay=2,chibaharo}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_chibaharo_15_Tokyo7.png}
+        \caption{siglalay=15,chibaharo}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_chibaharo_28_Tokyo7.png}
+        \caption{siglay=28,chibaharo}
+      \end{minipage} \\
+      %urayasu
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_urayasu_2_Tokyo7.png}
+        \caption{siglay=2,urayasu}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_urayasu_15_Tokyo7.png}
+        \caption{siglalay=15,urayasu}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_urayasu_28_Tokyo7.png}
+        \caption{siglay=28,urayasu}
+      \end{minipage} \\
+      %kawasaki
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_kawasaki_2_Tokyo7.png}
+        \caption{siglay=2,kawasaki}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_kawasaki_15_Tokyo7.png}
+        \caption{siglalay=15,kawasaki}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/salinity_kawasaki_28_Tokyo7.png}
+        \caption{siglay=28,kawasaki}
+      \end{minipage}
+
+    \end{tabular}
+  \end{figure}
+  
+\clearpage
+\section{水温変化のコンター}
+\begin{figure}[hbtp]
+    \includegraphics[keepaspectratio,width=180mm]{contour/tempTokyo7_chiba1buoy.png}
+    \caption{temp\_chiba1buoy}
+\end{figure}
+次ページから各nodeのグラフ
+
+\clearpage
+%\section{河川流量1倍時のsigma layerごとでの水温変化,中小河川入力済み,chiba1buoy}
+\begin{figure}[hbtp]
+    \begin{tabular}{ccc}
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_chiba1buoy_2_Tokyo7.png}
+        \caption{siglay=2,chiba1buoy}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_chiba1buoy_15_Tokyo7.png}
+        \caption{siglalay=15,chiba1buoy}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_chiba1buoy_28_Tokyo7.png}
+        \caption{siglay=28,chiba1buoy}
+      \end{minipage} \\
+      %chibaharo
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_chibaharo_2_Tokyo7.png}
+        \caption{siglay=2,chibaharo}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_chibaharo_15_Tokyo7.png}
+        \caption{siglalay=15,chibaharo}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_chibaharo_28_Tokyo7.png}
+        \caption{siglay=28,chibaharo}
+      \end{minipage} \\
+      %urayasu
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_urayasu_2_Tokyo7.png}
+        \caption{siglay=2,urayasu}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_urayasu_15_Tokyo7.png}
+        \caption{siglalay=15,urayasu}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_urayasu_28_Tokyo7.png}
+        \caption{siglay=28,urayasu}
+      \end{minipage} \\
+      %kawasaki
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_kawasaki_2_Tokyo7.png}
+        \caption{siglay=2,kawasaki}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_kawasaki_15_Tokyo7.png}
+        \caption{siglalay=15,kawasaki}
+      \end{minipage} 
+      \begin{minipage}[t]{0.32\hsize}
+        \centering
+        \includegraphics[keepaspectratio, width=55mm]{Tokyo7/temperature_kawasaki_28_Tokyo7.png}
+        \caption{siglay=28,kawasaki}
+      \end{minipage}
+    \end{tabular}
+  \end{figure}
+
+
+
+\section{鉛直プロファイル}
+caution:今は直線最近傍のnodeの値をそのまま採用している。使用した直線は\ref{地図}参照
+
+\begin{figure}[hbtp]
+  \begin{tabular}{cc}
+    %30
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo7_30profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,2/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo7_30profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,2/1}
+    \end{minipage} \\
+    %90
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo7_90profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,4/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo7_90profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,4/1}
+    \end{minipage} \\
+    %150
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo7_150profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,6/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo7_150profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,6/1}
+    %210
+    \end{minipage} \\
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo7_210profile.png}
+      \hspace{-3truemm}
+      \caption{salinity,8/1}
+    \end{minipage} &
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo7_210profile.png}
+      \hspace{-3truemm}
+      \caption{temperature,8/1}
+    \end{minipage} \\
+      %240
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo7_240profile.png}
+        \caption{salinity,9/1}
+      \end{minipage} &
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo7_240profile.png}
+        \caption{temperature,9/1}
+      \end{minipage} \\
+    %270
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/salinityTokyo7_270profile.png}
+        \caption{salinity,10/1}
+      \end{minipage} &
+      \begin{minipage}[t]{0.5\hsize}
+        \centering
+        \includegraphics[keepaspectratio,width=90mm]{vertical/TemperatureTokyo7_270profile.png}
+        \caption{temperature/10/1}
+      \end{minipage} 
+  \end{tabular}
+\end{figure}
+
+\clearpage
+\section{三浦半島沖合の時系列データ}
+\begin{figure}[hbtp]
+  \begin{tabular}{cc}
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{Tokyo7/salinity_outer.png}
+      \caption{salinity}
+    \end{minipage} 
+    \begin{minipage}[t]{0.5\hsize}
+      \centering
+      \includegraphics[keepaspectratio,width=90mm]{Tokyo7/temperature_outer.png}
+      \caption{temperature}
+    \end{minipage} 
+  \end{tabular}
+\end{figure}
+
+\end{document}

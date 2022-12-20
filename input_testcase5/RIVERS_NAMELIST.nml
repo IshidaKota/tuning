@@ -1,0 +1,91 @@
+ &NML_RIVER
+  RIVER_NAME          = 'Tamagawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 174,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'arakawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 71,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'sumidagawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 71,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'edogawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 62,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'nakagawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 51,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Tsurumigawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 199,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Mamagawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 5,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Ebigawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 1,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+  &NML_RIVER
+  RIVER_NAME          = 'Yorogawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 67,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Obitsugawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 230,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'koitogawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 300,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Muratagawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 39,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /
+ &NML_RIVER
+  RIVER_NAME          = 'Hanamigawa',
+  RIVER_FILE          = 'TokyoBay12_river.nc',
+  RIVER_GRID_LOCATION = 19,
+  TS_ADJUST_METHOD = 'average',
+  RIVER_VERTICAL_DISTRIBUTION = 'uniform'
+  /

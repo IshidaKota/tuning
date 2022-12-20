@@ -1,0 +1,6 @@
+*.nc
+*.sh.o*
+fvcom
+*.pdf
+*.png
+*.csv
